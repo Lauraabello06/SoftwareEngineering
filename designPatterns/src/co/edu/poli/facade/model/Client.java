@@ -5,13 +5,19 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 
+import co.edu.poli.facadeback.model.Blackberry;
+import co.edu.poli.facadeback.model.Iphone;
+import co.edu.poli.facadeback.model.MobileShopInterface;
+import co.edu.poli.facadeback.model.Samsung;
+import co.edu.poli.facadeback.model.ShopKeeper;
+
 public class Client {
 	private static int choice;
 
 	public static void main(String args[]) throws NumberFormatException, IOException {
 
 		//One event does this activity
-		HashMap<Integer, MobileShop> a = new HashMap<Integer, MobileShop>();
+		HashMap<Integer, MobileShopInterface> a = new HashMap<Integer, MobileShopInterface>();
 		a.put(1, new Iphone(" Iphone 6 ", " Rs 65000.00 "));
 		a.put(2, new Samsung(" Samsung 4", " Rs 45000.00 "));
 		a.put(3, new Blackberry(" Blackberry Z10", " Rs 35000.00"));
