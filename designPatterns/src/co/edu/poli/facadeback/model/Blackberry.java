@@ -1,7 +1,7 @@
 package co.edu.poli.facadeback.model;
 
 
-public class Blackberry implements MobileShopInterface {
+ class Blackberry implements MobileShopInterface {
 
 	private String model;
 	private String price;

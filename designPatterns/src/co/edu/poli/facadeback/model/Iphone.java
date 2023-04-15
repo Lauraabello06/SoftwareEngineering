@@ -1,7 +1,7 @@
 package co.edu.poli.facadeback.model;
 
 
-public class Iphone implements MobileShopInterface {
+class Iphone implements MobileShopInterface {
 
 	private String model;
 	private String price;

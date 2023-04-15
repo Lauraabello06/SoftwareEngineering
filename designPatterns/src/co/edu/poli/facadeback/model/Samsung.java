@@ -1,6 +1,6 @@
 package co.edu.poli.facadeback.model;
 
-public class Samsung implements MobileShopInterface {
+class Samsung implements MobileShopInterface {
 
 	private String model;
 	private String price;
